@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+    <link rel="stylesheet" href="/css/index.css">
+
+    <title>Meu_Portfolio</title>
+</head>
+
+<body>
+
+    <!---------------------------------------------------------------------------------------------------------->
+    <div class="holdingcontanier">
+
+        <!---------------------------------------------------------------------------------------------------------->
+        <div class="header">
+
+            <nav>
+                <br>
+                <h1>Welcome Dear  <span style="color: rgb(34, 0, 255);" class="user-name"></span> To !</h1>
+                <div class="logo">
+                    <a href="/pages/1.html">
+                        <div class="svg-wrapper1">
+                            <svg height="60" width="320">
+                                <rect class="shape1" height="60" width="320" />
+                                <text class="text1" x="50%" y="50%" dominant-baseline="central" text-anchor="middle">
+                                    <tspan class="logo-span">Meu</tspan>_Portfolio
+                                </text>
+                            </svg>
+                    </a>
+                </div>
+            </nav>
+            <div class="dayNight">
+                <ion-icon class="moon-icon" name="moon-outline"></ion-icon>
+                <ion-icon class="sun-icon" name="sunny-outline"></ion-icon>
+            </div>
+        </div>
+        <!---------------------------------------------------------------------------------------------------------->
+        <div class="menu">
+            <p class="date-container">Today's date: <span id="current-date"></span></p>
+        </div>
+        <!---------------------------------------------------------------------------------------------------------->
+        <div class="main">
+
+            <div class="vedio">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3oNknmoUm2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            
+            <div class="calculator">
+                <p>Dear <span style="color: blueviolet;" class="user-name"></span>  What You Want To Calculate</p>
+                <input type="text" class="expression" placeholder="Enter arithmetic expression">
+                <div class="buttons">
+                  <button class="btn-calculate">Calculate</button>
+                  <button class="btn-clear">Clear</button>
+                </div>
+                <div class="result"></div>
+              </div>
+        </div>
+        <!---------------------------------------------------------------------------------------------------------->
+        <div class="aside">
+            <aside>
+                <!-- your aside content goes here -->
+                <div class="image-container">
+                  <h1 id="user-sentence" class="hidden"></h1>
+                  <img src="/imgs/featured-2.png" alt="A beautiful sunset">
+                  <form id="inspiration-form">
+                    <label for="inspired-sentence">Enter a sentence inspired by the image:</label>
+                    <input type="text" id="inspired-sentence" name="inspired-sentence" required>
+                    <button type="submit">Submit</button>
+                  </form>
+                </div>
+              </aside>
+        </div>
+        <!---------------------------------------------------------------------------------------------------------->
+        <div class="footer">
+
+            <ul class="wrapper_social">
+                <li class="icon facebook">
+                    <span class="tooltip">Facebook</span>
+                    <span><i class="fab fa-facebook-f"></i></span>
+                </li>
+                <li class="icon twitter">
+                    <span class="tooltip">Twitter</span>
+                    <span><i class="fab fa-twitter"></i></span>
+                </li>
+                <li class="icon instagram">
+                    <span class="tooltip">Instagram</span>
+                    <span><i class="fab fa-instagram"></i></span>
+                </li>
+                <li class="icon github">
+                    <span class="tooltip">Github</span>
+                    <span><i class="fab fa-github"></i></span>
+                </li>
+                <li class="icon youtube">
+                    <span class="tooltip">Youtube</span>
+                    <span><i class="fab fa-youtube"></i></span>
+                </li>
+                
+            </ul>
+
+        </div>
+        <!---------------------------------------------------------------------------------------------------------->
+        <form id="name-form">
+            <label for="user-name">Enter your name:</label>
+            <input type="text" id="user-name" name="user-name" required>
+            <button type="submit">Submit</button>
+            <br><br>
+            <p>Best regards, <span style="color: brown;" class="user-name"></span></p>
+          </form>
+          
+    </div>
+    
+    <!---------------------------------------------------------------------------------------------------------->
+
+    <!---------------------------------------------------------------------------------------------------------->
+    <script src="/js/scripts.js"></script>
+</body>
+
+</html>
+
+

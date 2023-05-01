@@ -1,0 +1,43 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1, h2 {
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  .about {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #technologies-used, #patterns-used {
+    margin-bottom: 20px;
+  }
+  
+  .technology, .pattern {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .technology img, .pattern img {
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+  }
+  
+  .technology p, .pattern p {
+    margin: 0;
+  }
+  
